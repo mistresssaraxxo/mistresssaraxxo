@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script async src="https://fundingchoicesmessages.google.com/i/pub-8102815094882014?ers=1" nonce="TMOhula9nIHeMDAd0PpreQ"></script>
+    <script nonce="TMOhula9nIHeMDAd0PpreQ">
+        (function() {
+            function signalGooglefcPresent() {
+                if (!window.frames['googlefcPresent']) {
+                    if (document.body) {
+                        const iframe = document.createElement('iframe');
+                        iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;';
+                        iframe.style.display = 'none';
+                        iframe.name = 'googlefcPresent';
+                        document.body.appendChild(iframe);
+                    } else {
+                        setTimeout(signalGooglefcPresent, 0);
+                    }
+                }
+            }
+            signalGooglefcPresent();
+        })();
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Goddess Sara</title>
+</head>
+<body>
+<div class="console-window">
+    <div class="console-header">
+        <div class="title">Terminal</div>
+    </div>
+    <div id="console">
+        <div class="console-content"></div>
+        <div class="blinking-prompt" id="blinkingPrompt">_</div>
+    </div>
+    <div class="msg" id="hackMessage">Downloading contents of device. (｀∀´)</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
